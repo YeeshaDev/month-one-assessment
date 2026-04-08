@@ -19,7 +19,7 @@ variable "instance_type_db" {
 variable "key_name" {
   description = "Name of the EC2 key pair for SSH access"
   type        = string
-  default     = "us_demo_key"
+  default     = ""
 }
 
 variable "my_ip" {
